@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/cell111"
+        android:layout_width="93dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/app_name"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/cell131"
+        android:layout_width="93dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="140dp"
+        android:ems="10"
+        android:hint="@string/app_name"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/cell211"
+        android:layout_width="93dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="300dp"
+        android:ems="10"
+        android:hint="@string/app_name"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/cell212"
+        android:layout_width="93dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="300dp"
+        android:ems="10"
+        android:hint="@string/app_name"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/cell213"
+        android:layout_width="93dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="300dp"
+        android:ems="10"
+        android:hint="@string/app_name"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/cell221"
+        android:layout_width="93dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="240dp"
+        android:ems="10"
+        android:hint="@string/app_name"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/cell222"
+        android:layout_width="93dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="240dp"
+        android:ems="10"
+        android:hint="@string/app_name"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/cell223"
+        android:layout_width="93dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="240dp"
+        android:ems="10"
+        android:hint="@string/app_name"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/cell231"
+        android:layout_width="93dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="180dp"
+        android:ems="10"
+        android:hint="@string/app_name"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/cell232"
+        android:layout_width="93dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="180dp"
+        android:ems="10"
+        android:hint="@string/app_name"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/cell233"
+        android:layout_width="93dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="180dp"
+        android:ems="10"
+        android:hint="@string/app_name"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/cell132"
+        android:layout_width="93dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="140dp"
+        android:ems="10"
+        android:hint="@string/app_name"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/cell133"
+        android:layout_width="93dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="40dp"
+        android:ems="10"
+        android:hint="@string/app_name"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/cell112"
+        android:layout_width="93dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/app_name"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <EditText
+        android:id="@+id/cell123"
+        android:layout_width="93dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="40dp"
+        android:ems="10"
+        android:hint="@string/app_name"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/cell121"
+        android:layout_width="93dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:hint="@string/app_name"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/cell122"
+        android:layout_width="93dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:hint="@string/app_name"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/cell113"
+        android:layout_width="93dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:ems="10"
+        android:hint="@string/app_name"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="reversedMatrix"
+        android:text="Invert"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="multiplyMatrixes"
+        android:text="Multiply"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="calcDET"
+        android:text="DET"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
